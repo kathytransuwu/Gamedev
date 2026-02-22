@@ -1,10 +1,10 @@
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
+
     [Header("Movement")]
     public float moveSpeed = 5f;
     public float acceleration = 20f;
@@ -18,79 +18,81 @@ public class PlayerMovement : MonoBehaviour
     [Header("InputActions")]
     public InputAction JumpAction;
     public InputAction Controls;
+    public InputAction Dash;
 
     bool IsGrounded;
     bool TryJump;
-
+    bool TryDash;
     Vector2 moveDirection = Vector2.zero;
 
     private void OnEnable()
     {
         Controls.Enable();
         JumpAction.Enable();
+        Dash.Enable();
     }
 
     private void OnDisable()
     {
         Controls.Disable();
         JumpAction.Disable();
+        Dash.Disable();
     }
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Reads movement and assigns value to them
         moveDirection = Controls.ReadValue<Vector2>();
 
-        //If the player presses space AND is grounded, 
-        if(JumpAction.triggered && IsGrounded)
+        if (JumpAction.triggered && IsGrounded)
         {
             TryJump = true;
+        }
+        if (Dash.triggered && !IsGrounded)
+        {
+            TryDash = true;
         }
     }
 
     private void FixedUpdate()
     {
         IsGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f);
+
         Vector3 move = transform.right * moveDirection.x + transform.forward * moveDirection.y;
         move.Normalize();
 
-        Vector3 currentvelocity = rb.linearVelocity;
-        
-        
+        Vector3 currentVelocity = rb.linearVelocity;
+        Vector3 targetVelocity = move * maxSpeed;
+        targetVelocity.y = currentVelocity.y;
 
-
-        if (TryJump)
+        if (TryJump && IsGrounded)
         {
-            rb.linearVelocity = new Vector3(currentvelocity.x, JumpForce, currentvelocity.z);
+            rb.linearVelocity = Vector3.Lerp(currentVelocity, targetVelocity, acceleration * Time.fixedDeltaTime);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, JumpForce, rb.linearVelocity.z);
             IsGrounded = false;
             TryJump = false;
         }
-
-        if (IsGrounded)
+        else if (IsGrounded) // Only allow movement control when grounded
         {
-            Vector3 targetVelocity = move * maxSpeed;
-            targetVelocity.y = currentvelocity.y;
-
             if (moveDirection != Vector2.zero)
             {
-
-                rb.linearVelocity = Vector3.Lerp(currentvelocity, targetVelocity, acceleration * Time.fixedDeltaTime);
+                rb.linearVelocity = Vector3.Lerp(currentVelocity, targetVelocity, acceleration * Time.fixedDeltaTime);
             }
             else
             {
-                rb.linearVelocity = Vector3.Lerp(currentvelocity, new Vector3(0, currentvelocity.y, 0), deceleration * Time.fixedDeltaTime);
+                rb.linearVelocity = Vector3.Lerp(currentVelocity, new Vector3(0, currentVelocity.y, 0), deceleration * Time.fixedDeltaTime);
             }
         }
-
-
-        
+        else if (TryDash && !IsGrounded)
+        {
+            Vector3 dashDirection = move != Vector3.zero ? move : new Vector3(currentVelocity.x, 0, currentVelocity.z).normalized;
+            rb.linearVelocity = new Vector3(dashDirection.x * DashForce, currentVelocity.y, dashDirection.z * DashForce);
+            TryDash = false;
+        }
+        // If not grounded and not jumping, do nothing — velocity carries over freely
     }
 }
