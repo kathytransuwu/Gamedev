@@ -59,6 +59,10 @@ public class PlayerMovement : MonoBehaviour
         {
             TryDash = true;
         }
+        else
+        {
+            TryJump = false;
+        }
     }
 
     private void FixedUpdate()

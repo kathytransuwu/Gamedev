@@ -37,6 +37,7 @@ public class CameraMovement : MonoBehaviour
     {
         
         Vector2 lookDelta = Controls.ReadValue<Vector2>();
+        Debug.Log(lookDelta);
 
         //Gets the movement data from the mouse, times by sensitivity and dependent on framerate with delta time.
         float mouseX = lookDelta.x * MouseSensitivity * Time.deltaTime;
