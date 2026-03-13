@@ -108,4 +108,12 @@ public class PlayerMovement : MonoBehaviour
         }
         //If not grounded and not jumping do nothing velocity carries over freely
     }
+    //Used for when player runs over Pickup for a gun
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PickUp"))
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
 }

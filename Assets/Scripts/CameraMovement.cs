@@ -7,7 +7,7 @@ public class CameraMovement : MonoBehaviour
 
     [SerializeField] float MinCameraMovement = 25f;
 
-    public float MouseSensitivity = 100f;
+    private float MouseSensitivity = 0.2f;
 
     [SerializeField] Transform PlayerBody;
 
@@ -35,13 +35,14 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
         
         Vector2 lookDelta = Controls.ReadValue<Vector2>();
-        Debug.Log(lookDelta);
 
         //Gets the movement data from the mouse, times by sensitivity and dependent on framerate with delta time.
-        float mouseX = lookDelta.x * MouseSensitivity * Time.deltaTime;
-        float mouseY = lookDelta.y * MouseSensitivity * Time.deltaTime;
+        float mouseX = lookDelta.x * MouseSensitivity;
+        float mouseY = lookDelta.y * MouseSensitivity;
 
         xRotation -= mouseY;
         //Clamp basically means it can't go any further down than -90f and not higher than MinCameraMovement
