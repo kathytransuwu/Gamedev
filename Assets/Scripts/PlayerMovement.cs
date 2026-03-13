@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     bool IsGrounded;
     bool TryJump;
     bool TryDash;
+    bool hasDashed;
     Vector2 moveDirection = Vector2.zero;
 
     private void OnEnable()
@@ -55,21 +56,21 @@ public class PlayerMovement : MonoBehaviour
             TryJump = true;
         }
         //If the user uses the dash key and isn't on the ground, TryDash method is tried. (May need to cap the dash value tho)
-        if (Dash.triggered && !IsGrounded)
+        if (Dash.triggered && !IsGrounded && !hasDashed)
         {
             TryDash = true;
-        }
-        else
-        {
-            TryJump = false;
+            hasDashed = true;
         }
     }
 
     private void FixedUpdate()
     {
-
+        bool wasGrounded = IsGrounded;
         //This sends a raycast beneath the player to check if they're on the ground.
         IsGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f);
+        if (IsGrounded && !wasGrounded) {
+            hasDashed = false; //Reset dash on landing.
+        }
 
         //Basically, the move here turns the 2D input into a 3D direction depending on players direction. Normalisation SOLELY is to make sure diagonal movement isnt faster. 
         Vector3 move = transform.right * moveDirection.x + transform.forward * moveDirection.y;
