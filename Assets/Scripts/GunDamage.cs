@@ -20,14 +20,12 @@ public class GunDamage : MonoBehaviour
 
     public void Shoot()
     {
-        Debug.Log("Shoot called"); // Is GunDamage.Shoot being reached?
-        Ray gunRay = new Ray(PlayerCamera.position, PlayerCamera.forward);
+        Ray gunRay = new Ray(PlayerCamera.position, PlayerCamera.forward); //Uses the playercamera to check. Not where the gun is pointed. 
+        
         if(Physics.Raycast(gunRay, out RaycastHit hit, BulletRange))
         {
-            Debug.Log($"Hit: {hit.collider.gameObject.name}"); // Are we hitting anything?
             if (hit.collider.gameObject.TryGetComponent(out Entity Enemy))
             {
-                Debug.Log($"Hit entity, dealing {Damage} damage"); // Is it an Entity?
                 Enemy.Health -= Damage;
             }
         }
