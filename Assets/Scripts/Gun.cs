@@ -34,7 +34,6 @@ public class Gun : MonoBehaviour
 
         bool Shooting = Automatic ? GunShoot.IsPressed() : GunShoot.WasPressedThisFrame();
 
-        UnityEngine.Debug.Log($"Shooting: {Shooting}, Cooldown: {CurrentCooldown}"); // Is input even registering?
 
 
         if (Shooting && CurrentCooldown <= 0)

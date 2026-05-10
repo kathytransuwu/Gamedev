@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
+    public GameObject punchHitbox;
+
     [SerializeField] private float StartingHealth;
     private float health;
 
@@ -14,7 +16,6 @@ public class Entity : MonoBehaviour
         set
         {
             health = value;
-            Debug.Log($"Health: {health}");
             if (health <= 0)
             {
                 Destroy(gameObject);
@@ -25,11 +26,25 @@ public class Entity : MonoBehaviour
     void Start()
     {
         health = StartingHealth;
+        punchHitbox.SetActive(false);
     }
+
+    public void EnableHitbox()
+    {
+        punchHitbox.SetActive(true);
+    }
+
+    public void DisableHitbox()
+    {
+        punchHitbox.SetActive(false);
+    }
+  
 
     // Update is called once per frame
     void Update()
     {
-        
+        {
+            
+        }
     }
 }

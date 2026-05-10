@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4749976115849566}
   - component: {fileID: 33992756020891784}
   - component: {fileID: 23045020625788142}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 4417668809035164}
   - component: {fileID: 33267075204430644}
   - component: {fileID: 23830469562850860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 4554983318146218}
   - component: {fileID: 33520288822704174}
   - component: {fileID: 23405934076440072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 4396024113532444}
   - component: {fileID: 33056401848439972}
   - component: {fileID: 23179793418035384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 4714746358321038}
   - component: {fileID: 33607895411907032}
   - component: {fileID: 23642584057726144}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_tall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 4242487027684334}
   - component: {fileID: 33553207302452696}
   - component: {fileID: 23363448473010958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Round (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 4206723713849028}
   - component: {fileID: 33626004873670230}
   - component: {fileID: 23884779300613620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_tall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 4200389835988258}
   - component: {fileID: 33966674766868116}
   - component: {fileID: 23961786047300558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Round (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 4806853218668228}
   - component: {fileID: 33945037861703536}
   - component: {fileID: 23110898899591070}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 4173528194057438}
   - component: {fileID: 33619174318431338}
   - component: {fileID: 23039240702374520}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1115,7 +1115,7 @@ GameObject:
   - component: {fileID: 4860201488797354}
   - component: {fileID: 33180219792210818}
   - component: {fileID: 23602816643584564}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 4832462023425552}
   - component: {fileID: 33727688821725842}
   - component: {fileID: 23833146941833330}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1297,7 +1297,7 @@ GameObject:
   - component: {fileID: 4991089112910140}
   - component: {fileID: 33445186017769764}
   - component: {fileID: 23499445858300246}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_tall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,7 +1389,7 @@ GameObject:
   - component: {fileID: 4426077222627308}
   - component: {fileID: 33094178390945398}
   - component: {fileID: 23624697617920424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1479,7 @@ GameObject:
   - component: {fileID: 4920194056238842}
   - component: {fileID: 33991831014483450}
   - component: {fileID: 23548669960660740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,7 +1570,7 @@ GameObject:
   - component: {fileID: 4603896226896912}
   - component: {fileID: 33209608085878592}
   - component: {fileID: 23036085052066536}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 4714411039571100}
   - component: {fileID: 33004556683485194}
   - component: {fileID: 23252723246798084}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 4019276965664490}
   - component: {fileID: 33749227635842062}
   - component: {fileID: 23492548024300724}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1840,7 @@ GameObject:
   - component: {fileID: 4707096615470568}
   - component: {fileID: 33717288760151780}
   - component: {fileID: 23920939194444312}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1930,7 +1930,7 @@ GameObject:
   - component: {fileID: 4129116401895164}
   - component: {fileID: 33200695146351438}
   - component: {fileID: 23466229490678802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2021,7 +2021,7 @@ GameObject:
   - component: {fileID: 4828472155064942}
   - component: {fileID: 33742867217673292}
   - component: {fileID: 23295582025618864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2111,7 +2111,7 @@ GameObject:
   - component: {fileID: 4577817167881396}
   - component: {fileID: 33173275112874662}
   - component: {fileID: 23256357055298272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2202,7 +2202,7 @@ GameObject:
   - component: {fileID: 4829430156615930}
   - component: {fileID: 33780749456850310}
   - component: {fileID: 23457231871599394}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2292,7 +2292,7 @@ GameObject:
   - component: {fileID: 4538323259200084}
   - component: {fileID: 33335263356767926}
   - component: {fileID: 23486089033781866}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2382,7 +2382,7 @@ GameObject:
   - component: {fileID: 4397785114630404}
   - component: {fileID: 33710265089850278}
   - component: {fileID: 23037683849288614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2473,7 +2473,7 @@ GameObject:
   - component: {fileID: 4336716734049256}
   - component: {fileID: 33894757363494266}
   - component: {fileID: 23359726648824148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2564,7 +2564,7 @@ GameObject:
   - component: {fileID: 4477369636484628}
   - component: {fileID: 33982367358589986}
   - component: {fileID: 23371373856703060}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2654,7 +2654,7 @@ GameObject:
   - component: {fileID: 4238750485084418}
   - component: {fileID: 33496155045627092}
   - component: {fileID: 23972604826132486}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2744,7 +2744,7 @@ GameObject:
   - component: {fileID: 4981811152798668}
   - component: {fileID: 33114441936106770}
   - component: {fileID: 23719397409333088}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2835,7 +2835,7 @@ GameObject:
   - component: {fileID: 4170292186347844}
   - component: {fileID: 33577431042999478}
   - component: {fileID: 23833636846135096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2925,7 +2925,7 @@ GameObject:
   - component: {fileID: 4882826852171276}
   - component: {fileID: 33954918078648222}
   - component: {fileID: 23148752380834726}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3015,7 +3015,7 @@ GameObject:
   - component: {fileID: 4076170321796518}
   - component: {fileID: 33133487936951136}
   - component: {fileID: 23453308413875038}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3105,7 +3105,7 @@ GameObject:
   - component: {fileID: 4961294613539912}
   - component: {fileID: 33049304121174666}
   - component: {fileID: 23122099077698738}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3195,7 +3195,7 @@ GameObject:
   - component: {fileID: 4603419016139214}
   - component: {fileID: 33005459960459766}
   - component: {fileID: 23346135396142686}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3285,7 +3285,7 @@ GameObject:
   - component: {fileID: 4295387778826696}
   - component: {fileID: 33432542491677712}
   - component: {fileID: 23241312075088812}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3375,7 +3375,7 @@ GameObject:
   - component: {fileID: 4623420929599276}
   - component: {fileID: 33508178302911190}
   - component: {fileID: 23715377390618926}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3465,7 +3465,7 @@ GameObject:
   - component: {fileID: 4750042126298198}
   - component: {fileID: 33409022141328464}
   - component: {fileID: 23263978409519704}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3555,7 +3555,7 @@ GameObject:
   - component: {fileID: 4532459141887772}
   - component: {fileID: 33140647716298094}
   - component: {fileID: 23903272973986790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3681,7 +3681,7 @@ GameObject:
   - component: {fileID: 4162562897453648}
   - component: {fileID: 33727439883258458}
   - component: {fileID: 23496257095335592}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3771,7 +3771,7 @@ GameObject:
   - component: {fileID: 4933310364989072}
   - component: {fileID: 33623181601884022}
   - component: {fileID: 23477948412037824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3861,7 +3861,7 @@ GameObject:
   - component: {fileID: 4338145761387836}
   - component: {fileID: 33007193844001802}
   - component: {fileID: 23963025980247748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3952,7 +3952,7 @@ GameObject:
   - component: {fileID: 4322460094750126}
   - component: {fileID: 33596209709247894}
   - component: {fileID: 23182194516953736}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4042,7 +4042,7 @@ GameObject:
   - component: {fileID: 4696613329046272}
   - component: {fileID: 33729132283503056}
   - component: {fileID: 23828119373615442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4132,7 +4132,7 @@ GameObject:
   - component: {fileID: 4130668515241612}
   - component: {fileID: 33048823905693988}
   - component: {fileID: 23654291296883968}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_Black (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4223,7 +4223,7 @@ GameObject:
   - component: {fileID: 4856031899828294}
   - component: {fileID: 33307981740348316}
   - component: {fileID: 23076428012004734}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4546,7 +4546,7 @@ GameObject:
   - component: {fileID: 4706701226579658}
   - component: {fileID: 33064012724276268}
   - component: {fileID: 23902903997365380}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4634,7 +4634,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4744922251403768}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4818,7 +4818,7 @@ GameObject:
   - component: {fileID: 4411365796155220}
   - component: {fileID: 33511321373586362}
   - component: {fileID: 23852224019217442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4908,7 +4908,7 @@ GameObject:
   - component: {fileID: 4031619009817988}
   - component: {fileID: 33528128157271222}
   - component: {fileID: 23871914581189120}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4998,7 +4998,7 @@ GameObject:
   - component: {fileID: 4220888224980152}
   - component: {fileID: 33280664503232914}
   - component: {fileID: 23560726916537010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5088,7 +5088,7 @@ GameObject:
   - component: {fileID: 4042783415737736}
   - component: {fileID: 33390956779342842}
   - component: {fileID: 23723667641058248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5178,7 +5178,7 @@ GameObject:
   - component: {fileID: 4175368601491198}
   - component: {fileID: 33008390544274638}
   - component: {fileID: 23909068781843570}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5269,7 +5269,7 @@ GameObject:
   - component: {fileID: 4697956592587580}
   - component: {fileID: 33590575403268640}
   - component: {fileID: 23004833091580450}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5473,7 +5473,7 @@ GameObject:
   - component: {fileID: 4890536321365786}
   - component: {fileID: 33580853896453808}
   - component: {fileID: 23960300175676708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lobby_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5564,7 +5564,7 @@ GameObject:
   - component: {fileID: 4991152366081486}
   - component: {fileID: 33215944533770676}
   - component: {fileID: 23402960476239230}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5654,7 +5654,7 @@ GameObject:
   - component: {fileID: 4762366946898982}
   - component: {fileID: 33759646622680748}
   - component: {fileID: 23392401201505786}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5841,7 +5841,7 @@ GameObject:
   - component: {fileID: 4470494454137422}
   - component: {fileID: 33652637042158410}
   - component: {fileID: 23782348251180064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5932,7 +5932,7 @@ GameObject:
   - component: {fileID: 4561517933686282}
   - component: {fileID: 33192030675363312}
   - component: {fileID: 23973969218147910}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6022,7 +6022,7 @@ GameObject:
   - component: {fileID: 4352685994302786}
   - component: {fileID: 33864033397970778}
   - component: {fileID: 23630385028272748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6113,7 +6113,7 @@ GameObject:
   - component: {fileID: 4814883767952698}
   - component: {fileID: 33332857314055228}
   - component: {fileID: 23186954493019928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_Black (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6204,7 +6204,7 @@ GameObject:
   - component: {fileID: 4486901561794184}
   - component: {fileID: 33802263288766978}
   - component: {fileID: 23644446823956532}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6294,7 +6294,7 @@ GameObject:
   - component: {fileID: 4361052544869500}
   - component: {fileID: 33747243615050974}
   - component: {fileID: 23106413610064674}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6384,7 +6384,7 @@ GameObject:
   - component: {fileID: 4108199539919640}
   - component: {fileID: 33688726937197906}
   - component: {fileID: 23210824640407712}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6475,7 +6475,7 @@ GameObject:
   - component: {fileID: 4818345751167040}
   - component: {fileID: 33597911043585800}
   - component: {fileID: 23869405620832010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6566,7 +6566,7 @@ GameObject:
   - component: {fileID: 4833601498659482}
   - component: {fileID: 33922720979930036}
   - component: {fileID: 23434511294047694}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_Black (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6657,7 +6657,7 @@ GameObject:
   - component: {fileID: 4487016354178682}
   - component: {fileID: 33803006805366826}
   - component: {fileID: 23046535449096018}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_tall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6749,7 +6749,7 @@ GameObject:
   - component: {fileID: 4336927759319960}
   - component: {fileID: 33588730002918062}
   - component: {fileID: 23644075498877390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6840,7 +6840,7 @@ GameObject:
   - component: {fileID: 4588079968842706}
   - component: {fileID: 33551721736090136}
   - component: {fileID: 23723789012164580}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6931,7 +6931,7 @@ GameObject:
   - component: {fileID: 4373282027164628}
   - component: {fileID: 33265877627021728}
   - component: {fileID: 23569289627076032}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7059,7 +7059,7 @@ GameObject:
   - component: {fileID: 4920499326205274}
   - component: {fileID: 33962184419744100}
   - component: {fileID: 23826249897638870}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7150,7 +7150,7 @@ GameObject:
   - component: {fileID: 4087328018186744}
   - component: {fileID: 33200348925064962}
   - component: {fileID: 23161273406802330}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7241,7 +7241,7 @@ GameObject:
   - component: {fileID: 4401661649928924}
   - component: {fileID: 33628090635481682}
   - component: {fileID: 23265958461232916}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7428,7 +7428,7 @@ GameObject:
   - component: {fileID: 4007637622439748}
   - component: {fileID: 33185225578025106}
   - component: {fileID: 23348981753579426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7518,7 +7518,7 @@ GameObject:
   - component: {fileID: 4594196608331886}
   - component: {fileID: 33233936513387470}
   - component: {fileID: 23325798799993060}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7608,7 +7608,7 @@ GameObject:
   - component: {fileID: 4883835669490850}
   - component: {fileID: 33556514546763826}
   - component: {fileID: 23797393660810524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7698,7 +7698,7 @@ GameObject:
   - component: {fileID: 4967951794955112}
   - component: {fileID: 33234905892672400}
   - component: {fileID: 23873932953378100}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7788,7 +7788,7 @@ GameObject:
   - component: {fileID: 4866086853818620}
   - component: {fileID: 33428023456494942}
   - component: {fileID: 23503013084871882}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7879,7 +7879,7 @@ GameObject:
   - component: {fileID: 4793752349933186}
   - component: {fileID: 33343915761570592}
   - component: {fileID: 23425991662689452}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7969,7 +7969,7 @@ GameObject:
   - component: {fileID: 4341977661704696}
   - component: {fileID: 33958217219011520}
   - component: {fileID: 23335428691238010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8060,7 +8060,7 @@ GameObject:
   - component: {fileID: 4351907895401240}
   - component: {fileID: 33518831456449134}
   - component: {fileID: 23332197881763930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8151,7 +8151,7 @@ GameObject:
   - component: {fileID: 4142970582315322}
   - component: {fileID: 33601334542806048}
   - component: {fileID: 23158291754800982}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Round (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8243,7 +8243,7 @@ GameObject:
   - component: {fileID: 4080031374218694}
   - component: {fileID: 33131061209954420}
   - component: {fileID: 23461686164880096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8333,7 +8333,7 @@ GameObject:
   - component: {fileID: 4685946180110816}
   - component: {fileID: 33973596107348612}
   - component: {fileID: 23815465974307024}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8424,7 +8424,7 @@ GameObject:
   - component: {fileID: 4109337666484850}
   - component: {fileID: 33679725224452890}
   - component: {fileID: 23166901855973566}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_White (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8515,7 +8515,7 @@ GameObject:
   - component: {fileID: 4005562986665458}
   - component: {fileID: 33924610778484764}
   - component: {fileID: 23177749741526764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8605,7 +8605,7 @@ GameObject:
   - component: {fileID: 4474797153847784}
   - component: {fileID: 33306329348529598}
   - component: {fileID: 23209236153457740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8695,7 +8695,7 @@ GameObject:
   - component: {fileID: 4972468120836518}
   - component: {fileID: 33538199067694254}
   - component: {fileID: 23113666943991616}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8785,7 +8785,7 @@ GameObject:
   - component: {fileID: 4637979553276904}
   - component: {fileID: 33144332017035774}
   - component: {fileID: 23386758628771724}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8875,7 +8875,7 @@ GameObject:
   - component: {fileID: 4153912751016478}
   - component: {fileID: 33514460950103424}
   - component: {fileID: 23467280662218944}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8965,7 +8965,7 @@ GameObject:
   - component: {fileID: 4213822559420516}
   - component: {fileID: 33074192207291020}
   - component: {fileID: 23255793918952852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9056,7 +9056,7 @@ GameObject:
   - component: {fileID: 4350830547245844}
   - component: {fileID: 33227983164800110}
   - component: {fileID: 23633950770162630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9146,7 +9146,7 @@ GameObject:
   - component: {fileID: 4480571830267122}
   - component: {fileID: 33395449370151646}
   - component: {fileID: 23998864839933620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9236,7 +9236,7 @@ GameObject:
   - component: {fileID: 4173963063951012}
   - component: {fileID: 33833683433926104}
   - component: {fileID: 23676404241542006}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9326,7 +9326,7 @@ GameObject:
   - component: {fileID: 4853083877593420}
   - component: {fileID: 33341479539885166}
   - component: {fileID: 23032616652363656}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9416,7 +9416,7 @@ GameObject:
   - component: {fileID: 4863420158970080}
   - component: {fileID: 33348912284279842}
   - component: {fileID: 23807238150296208}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9619,7 +9619,7 @@ GameObject:
   - component: {fileID: 4766660416099056}
   - component: {fileID: 33788362532439972}
   - component: {fileID: 23013158048598046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9806,7 +9806,7 @@ GameObject:
   - component: {fileID: 4923945703949160}
   - component: {fileID: 33562909600801280}
   - component: {fileID: 23502213796173972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10106,7 +10106,7 @@ GameObject:
   - component: {fileID: 4648943674550524}
   - component: {fileID: 33595785170819150}
   - component: {fileID: 23910782607697384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10196,7 +10196,7 @@ GameObject:
   - component: {fileID: 4512767748955484}
   - component: {fileID: 33581152238881690}
   - component: {fileID: 23137239523551748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_tall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10288,7 +10288,7 @@ GameObject:
   - component: {fileID: 4036953837758870}
   - component: {fileID: 33322815488148664}
   - component: {fileID: 23984470038104080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10378,7 +10378,7 @@ GameObject:
   - component: {fileID: 4323855653261932}
   - component: {fileID: 33890713796922446}
   - component: {fileID: 23992943250772390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10565,7 +10565,7 @@ GameObject:
   - component: {fileID: 4000212901819538}
   - component: {fileID: 33912999284972804}
   - component: {fileID: 23588366327167538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10656,7 +10656,7 @@ GameObject:
   - component: {fileID: 4963873367010218}
   - component: {fileID: 33319118095150828}
   - component: {fileID: 23638546208094696}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10746,7 +10746,7 @@ GameObject:
   - component: {fileID: 4161933513498192}
   - component: {fileID: 33898638918862028}
   - component: {fileID: 23860566839705180}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10933,7 +10933,7 @@ GameObject:
   - component: {fileID: 4562524088165434}
   - component: {fileID: 33513499617071868}
   - component: {fileID: 23554253178474162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11024,7 +11024,7 @@ GameObject:
   - component: {fileID: 4442615174586228}
   - component: {fileID: 33021403433406354}
   - component: {fileID: 23976980419894124}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Round
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11116,7 +11116,7 @@ GameObject:
   - component: {fileID: 4760341578818876}
   - component: {fileID: 33035175158454936}
   - component: {fileID: 23811285367062818}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11206,7 +11206,7 @@ GameObject:
   - component: {fileID: 4047864924432330}
   - component: {fileID: 33512261272927628}
   - component: {fileID: 23560725937813784}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11394,7 +11394,7 @@ GameObject:
   - component: {fileID: 4149599156190506}
   - component: {fileID: 33679264460575880}
   - component: {fileID: 23665094881425062}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11485,7 +11485,7 @@ GameObject:
   - component: {fileID: 4045695620900370}
   - component: {fileID: 33276880883004402}
   - component: {fileID: 23165428888433712}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11576,7 +11576,7 @@ GameObject:
   - component: {fileID: 4682505452862840}
   - component: {fileID: 33650996506538672}
   - component: {fileID: 23614758271370668}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11667,7 +11667,7 @@ GameObject:
   - component: {fileID: 4374749730184658}
   - component: {fileID: 33640993324818706}
   - component: {fileID: 23318381599458852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11855,7 +11855,7 @@ GameObject:
   - component: {fileID: 4164895623615314}
   - component: {fileID: 33352119714115632}
   - component: {fileID: 23923167320732920}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11945,7 +11945,7 @@ GameObject:
   - component: {fileID: 4917226590435284}
   - component: {fileID: 33273032274666996}
   - component: {fileID: 23430267647996088}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12035,7 +12035,7 @@ GameObject:
   - component: {fileID: 4064148041692678}
   - component: {fileID: 33290430704426252}
   - component: {fileID: 23800788123444670}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Round (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12127,7 +12127,7 @@ GameObject:
   - component: {fileID: 4720064136967070}
   - component: {fileID: 33675825797032884}
   - component: {fileID: 23505367517830584}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_White (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12218,7 +12218,7 @@ GameObject:
   - component: {fileID: 4419076244485166}
   - component: {fileID: 33855078567051304}
   - component: {fileID: 23923674587654610}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12405,7 +12405,7 @@ GameObject:
   - component: {fileID: 4891539793722106}
   - component: {fileID: 33379194052663790}
   - component: {fileID: 23912121104860642}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12496,7 +12496,7 @@ GameObject:
   - component: {fileID: 4770512738126134}
   - component: {fileID: 33450593200005992}
   - component: {fileID: 23276752191669462}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12586,7 +12586,7 @@ GameObject:
   - component: {fileID: 4251461114507632}
   - component: {fileID: 33506517254053434}
   - component: {fileID: 23479278575591708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12677,7 +12677,7 @@ GameObject:
   - component: {fileID: 4435008968259490}
   - component: {fileID: 33139553507383520}
   - component: {fileID: 23711594362842682}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12767,7 +12767,7 @@ GameObject:
   - component: {fileID: 4719890719625438}
   - component: {fileID: 33761714772151692}
   - component: {fileID: 23503048286061322}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12857,7 +12857,7 @@ GameObject:
   - component: {fileID: 4449457913973438}
   - component: {fileID: 33212622039428120}
   - component: {fileID: 23644959775243720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12948,7 +12948,7 @@ GameObject:
   - component: {fileID: 4239668473245620}
   - component: {fileID: 33415578768570540}
   - component: {fileID: 23604857702115828}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13039,7 +13039,7 @@ GameObject:
   - component: {fileID: 4482264468232942}
   - component: {fileID: 33598079789254388}
   - component: {fileID: 23285226045340074}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13129,7 +13129,7 @@ GameObject:
   - component: {fileID: 4818819733513976}
   - component: {fileID: 33321718976155632}
   - component: {fileID: 23649538456865002}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13220,7 +13220,7 @@ GameObject:
   - component: {fileID: 4545286895369706}
   - component: {fileID: 33038160494851762}
   - component: {fileID: 23144062564509706}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13424,7 +13424,7 @@ GameObject:
   - component: {fileID: 4093230331085536}
   - component: {fileID: 33472812372597428}
   - component: {fileID: 23978379261719280}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13514,7 +13514,7 @@ GameObject:
   - component: {fileID: 4078305546428104}
   - component: {fileID: 33184086278240458}
   - component: {fileID: 23528679872915060}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Round (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13606,7 +13606,7 @@ GameObject:
   - component: {fileID: 4036223879129666}
   - component: {fileID: 33788317783697570}
   - component: {fileID: 23129564900163254}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13697,7 +13697,7 @@ GameObject:
   - component: {fileID: 4381526389051144}
   - component: {fileID: 33409041250195194}
   - component: {fileID: 23905051456311180}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13787,7 +13787,7 @@ GameObject:
   - component: {fileID: 4673883816917624}
   - component: {fileID: 33925108034046832}
   - component: {fileID: 23455675403277356}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Round (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13879,7 +13879,7 @@ GameObject:
   - component: {fileID: 4569259467721834}
   - component: {fileID: 33027064401838348}
   - component: {fileID: 23695865911667432}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13970,7 +13970,7 @@ GameObject:
   - component: {fileID: 4688786794648382}
   - component: {fileID: 33962784363872134}
   - component: {fileID: 23639954327395390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14103,7 +14103,7 @@ GameObject:
   - component: {fileID: 4532089520567176}
   - component: {fileID: 33328242890914078}
   - component: {fileID: 23433530021670496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14193,7 +14193,7 @@ GameObject:
   - component: {fileID: 4208411506356288}
   - component: {fileID: 33406350394346240}
   - component: {fileID: 23475447172475592}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14284,7 +14284,7 @@ GameObject:
   - component: {fileID: 4267792102317846}
   - component: {fileID: 33700698700953592}
   - component: {fileID: 23247642963326146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14374,7 +14374,7 @@ GameObject:
   - component: {fileID: 4875707255374318}
   - component: {fileID: 33244609999587636}
   - component: {fileID: 23435462518690228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14465,7 +14465,7 @@ GameObject:
   - component: {fileID: 4792503101849698}
   - component: {fileID: 33776342888916670}
   - component: {fileID: 23807576453551094}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14556,7 +14556,7 @@ GameObject:
   - component: {fileID: 4624061416786832}
   - component: {fileID: 33790365944343740}
   - component: {fileID: 23827205123138100}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14646,7 +14646,7 @@ GameObject:
   - component: {fileID: 4805816709865242}
   - component: {fileID: 33728889712612772}
   - component: {fileID: 23308142228654926}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_Square (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14737,7 +14737,7 @@ GameObject:
   - component: {fileID: 4733139266781710}
   - component: {fileID: 33582879951713828}
   - component: {fileID: 23275174576166398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_White_1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14827,7 +14827,7 @@ GameObject:
   - component: {fileID: 4817111297502786}
   - component: {fileID: 33732689548869170}
   - component: {fileID: 23067798036830618}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14917,7 +14917,7 @@ GameObject:
   - component: {fileID: 4198362633944728}
   - component: {fileID: 33918444875459450}
   - component: {fileID: 23053009535552972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15008,7 +15008,7 @@ GameObject:
   - component: {fileID: 4022870216005862}
   - component: {fileID: 33598563122322800}
   - component: {fileID: 23205484159266384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15211,7 +15211,7 @@ GameObject:
   - component: {fileID: 4242854731188256}
   - component: {fileID: 33175053538894246}
   - component: {fileID: 23503033151713300}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15302,7 +15302,7 @@ GameObject:
   - component: {fileID: 4278685898731024}
   - component: {fileID: 33169298345982710}
   - component: {fileID: 23354249660749288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15392,7 +15392,7 @@ GameObject:
   - component: {fileID: 4719904031097130}
   - component: {fileID: 33145228381963362}
   - component: {fileID: 23022950587215066}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15482,7 +15482,7 @@ GameObject:
   - component: {fileID: 4461607847093326}
   - component: {fileID: 33556576004721114}
   - component: {fileID: 23096046440745190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Red_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15572,7 +15572,7 @@ GameObject:
   - component: {fileID: 4720665917894198}
   - component: {fileID: 33270834963429752}
   - component: {fileID: 23952770885077536}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stool_red (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15663,7 +15663,7 @@ GameObject:
   - component: {fileID: 4893702442731564}
   - component: {fileID: 33707910669026042}
   - component: {fileID: 23362536491174478}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_tall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15755,7 +15755,7 @@ GameObject:
   - component: {fileID: 4701304894878018}
   - component: {fileID: 33436536997538164}
   - component: {fileID: 23990640122719030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Black_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

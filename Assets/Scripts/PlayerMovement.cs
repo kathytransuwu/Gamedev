@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float acceleration = 20f;
     public float deceleration = 15f;
     public float maxSpeed = 8f;
+    public float SprintSpeed = 13f;
 
     [Header("Jumping")]
     public float JumpForce = 10f;
@@ -19,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
     public InputAction JumpAction;
     public InputAction Controls;
     public InputAction Dash;
+    public InputAction Sprint;
+
+    [HideInInspector] public bool canSprint = true;
+    public bool IsSprinting => Sprint.IsPressed() && canSprint && IsGrounded;
 
     bool IsGrounded;
     bool TryJump;
@@ -31,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         Controls.Enable();
         JumpAction.Enable();
         Dash.Enable();
+        Sprint.Enable();
     }
 
     private void OnDisable()
@@ -38,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
         Controls.Disable();
         JumpAction.Disable();
         Dash.Disable();
+        Sprint.Disable();
     }
 
     void Start()
@@ -78,7 +85,8 @@ public class PlayerMovement : MonoBehaviour
 
         //Basically shows the current velocity and the velocity we wanna cap at so we can lerp to create momentum
         Vector3 currentVelocity = rb.linearVelocity;
-        Vector3 targetVelocity = move * maxSpeed;
+        float currentMaxSpeed = IsSprinting ? SprintSpeed : maxSpeed;
+        Vector3 targetVelocity = move * currentMaxSpeed;
         targetVelocity.y = currentVelocity.y;
 
         if (TryJump && IsGrounded)
