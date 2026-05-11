@@ -17,6 +17,8 @@ public class DeathHandler : MonoBehaviour
         StartCoroutine(DeathSequence());
     }
 
+    
+
     private IEnumerator DeathSequence()
     {
         // Fade to white
