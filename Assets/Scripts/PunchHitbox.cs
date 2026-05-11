@@ -8,7 +8,7 @@ public class PunchHitbox : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Hit player");
+            DeathHandler.Instance.Die();
         }
     }
 }

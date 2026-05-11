@@ -1112,6 +1112,7 @@ MonoBehaviour:
   Player: {fileID: 506811278}
   aggroRange: 10
   stopDistance: 2
+  rotationSpeed: 10
   attackRange: 2
   attackCooldown: 2
 --- !u!114 &1695852277
@@ -1126,7 +1127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc440e18e9f2c1445ab56355869e77f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Entity
-  punchHitbox: {fileID: 0}
+  punchHitbox: {fileID: 315839267}
   StartingHealth: 10
 --- !u!95 &1695852278
 Animator:
