@@ -1,25 +1,35 @@
+using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
-public class DeathHandler : MonoBehaviour
+using UnityEngine.UI;
+
+public class GameManager : MonoBehaviour
 {
-    public static DeathHandler Instance;
-    public Image fadeImage; //Assign the full screen white UI image in the inspector
+    public static GameManager Instance;
+    public Image fadeImage;
+    private int EnemyCount;
 
     private void Awake()
     {
         Instance = this;
     }
-
-    public void Die()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        StartCoroutine(DeathSequence());
+        EnemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
     }
 
-    
+    public void EnemyDied()
+    {
+        EnemyCount--;
+        if (EnemyCount <= 0)
+        {
+            StartCoroutine(WinSequence());
+        }
+    }
 
-    private IEnumerator DeathSequence()
+    IEnumerator WinSequence()
     {
         // Fade to white
         float fadeDuration = 1f;
@@ -36,14 +46,7 @@ public class DeathHandler : MonoBehaviour
 
         fadeImage.color = targetColor;
 
-        // Reload the current scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
+        SceneManager.LoadScene("WinScene");
     }
 
     // Update is called once per frame
