@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
 
         fadeImage.color = targetColor;
 
-        SceneManager.LoadScene("WinScene");
+        SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     // Update is called once per frame
