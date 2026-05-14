@@ -34,11 +34,9 @@ public class Gun : MonoBehaviour
 
         bool Shooting = Automatic ? GunShoot.IsPressed() : GunShoot.WasPressedThisFrame();
 
-
-
         if (Shooting && CurrentCooldown <= 0)
         {
-            UnityEngine.Debug.Log("OnShoot Invoked"); // Is the event firing?
+            UnityEngine.Debug.Log("OnShoot Invoked"); //Is the event firing?
             OnShoot.Invoke();
             CurrentCooldown = shootCooldown;
         }

@@ -21,7 +21,7 @@ public class DeathHandler : MonoBehaviour
 
     private IEnumerator DeathSequence()
     {
-        // Fade to white
+        //Fade to white
         float fadeDuration = 1f;
         float elapsedTime = 0f;
         Color initialColor = fadeImage.color;

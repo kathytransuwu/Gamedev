@@ -16,8 +16,9 @@ public class Entity : MonoBehaviour
         set
         {
             health = value;
-            if (health <= 0)
+            if (health == 0)
             {
+                GameManager.Instance.EnemyDied();
                 Destroy(gameObject);
             }
         }

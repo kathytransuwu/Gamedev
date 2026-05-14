@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     public void EnemyDied()
     {
         EnemyCount--;
-        if (EnemyCount <= 0)
+        if (EnemyCount == 0)
         {
             StartCoroutine(WinSequence());
         }
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator WinSequence()
     {
-        // Fade to white
+        //Fade to white
         float fadeDuration = 1f;
         float elapsedTime = 0f;
         Color initialColor = fadeImage.color;

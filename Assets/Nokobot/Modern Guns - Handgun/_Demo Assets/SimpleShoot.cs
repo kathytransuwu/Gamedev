@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class SimpleShoot : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject casingPrefab;
     public GameObject muzzleFlashPrefab;
+    private Gun gun;
 
     [Header("Location Refrences")]
     [SerializeField] private Animator gunAnimator;
@@ -23,6 +25,7 @@ public class SimpleShoot : MonoBehaviour
 
     void Start()
     {
+        gun = GetComponentInParent<Gun>();
         if (barrelLocation == null)
             barrelLocation = transform;
 
@@ -30,14 +33,9 @@ public class SimpleShoot : MonoBehaviour
             gunAnimator = GetComponentInChildren<Animator>();
     }
 
-    void Update()
+    public void fireAnimation()
     {
-        //If you want a different input, change it here
-        if (Input.GetButtonDown("Fire1"))
-        {
-            //Calls animation on the gun that has the relevant animation events that will fire
-            gunAnimator.SetTrigger("Fire");
-        }
+        gunAnimator.SetTrigger("Fire");  
     }
 
 
